@@ -393,7 +393,7 @@
     align-items: center;
     justify-content: center;
     gap: 1em;
-    animation: spin 20s infinite linear;
+    animation: spin 35s infinite linear;
     padding-right: 1em;
   }
   .card {
