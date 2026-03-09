@@ -7,6 +7,11 @@
     font-family: 'Belanosima', sans-serif;
   }
 
+  :root {
+    --primary-color :#ffebc4 ;
+    --secondary-color:rgb(178, 34, 34);
+    --third-color:#39074E;
+  }
   
   *::selection {
     color: whitesmoke;
@@ -416,39 +421,92 @@
     to {translate: -100%;}
   }
 
-  /* #organization {
-    padding: 104px 0 104px 0;
-    color: white;
-    background-color: rgb(178, 34, 34);
-    margin: 0px 0 24px 0;
-    border: 2px solid black;
+  #footer {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: flex-end;
     flex-direction: column;
+    padding: 50px;
+    margin-top: 120px;
+    gap: 70px;
+    height: 600px;
+    width: auto;
+    background-color: rgb(178, 34, 34);
   }
-  
-  .empty {
+  .footer-start {
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 200px;
+    width: auto;
+    height: auto;
+    
+    /* flex-direction: row; */
+  }
+  ul {
+    list-style: none; 
+    padding: 0;       
+    margin: 0;        
+  }
+
+  li {
+    margin: 0;        
+  }
+
+  a {
+    text-decoration: none; 
+    color: inherit;     
+    transition: .6s;   
+  }
+  a:hover {
+    text-shadow: 5px 5px rgb(0, 0, 0);
+  }
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+  }
+  .footer-logo h3 {
+    font-size: 43.55px;
+    line-height: 70px;
+  }
+
+  .footer-logo-argi h1{
+    color: var(--primary-color);
+    font-size: 127.88px;
+    text-shadow: 20px 10px 3px black;
+  }
+  .footer-navbar .navbar .b {
+    color: white;
+    font-size: 31.99px;
+  }
+  .footer-navbar .navbar {
     display: flex;
     justify-content: center;
-    align-items: center;
-
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
   }
-  
-  .kosong {
+  .footer-navbar {
     display: flex;
-    height: 104px ;
-    width: 104px;
-    border:10px solid black;
-    align-items: center;
     justify-content: center;
-    margin: 104px 0px;
-    font-size: 50px;
-    color: rgb(69, 192, 35);
-  
-  } */
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+  }
 
-
+  .contact-me {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .footer-navbar .judul {
+    color: var(--primary-color);
+  }
   .reveal {
     position: relative;
     transform: translateY(80px);
@@ -474,6 +532,7 @@
 
   }
   @media screen and (max-width :600px) {
+    
   
     #true .true-1 {
       flex-direction: column;
