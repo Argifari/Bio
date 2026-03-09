@@ -532,7 +532,7 @@
       font-size: 90.44px;
       
     }
-    .homepage p {
+    #home .homepage p {
       font-size: 45.23px;
     }
     .footer-start {
@@ -543,7 +543,16 @@
     }
   }
   @media screen and (max-width :600px) {
+    .intro .logo-header .logo {
+      font-size: 31.99px;
+    }
+    #home .homepage p {
+      font-size: 31.99px;
+    }
+    #achievement .judul{
+      font-size: 45.23px;
 
+    }
     .footer-start {
       display: flex;
       justify-content: center;
