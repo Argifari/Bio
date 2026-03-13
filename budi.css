@@ -568,6 +568,9 @@
     }
   }
   @media screen and (max-width :600px) {
+    .home-navbar .navbar {
+      display: none;
+    }
     .intro .logo-header .logo {
       font-size: 31.99px;
     }
