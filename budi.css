@@ -65,28 +65,13 @@
   #home {
     padding-top: 30px;
     width: 100%;
-    height: auto;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap:wrap;
     gap: 250px;
     margin-bottom: 45vh;
-  }
-  .home-navbar .navbar{
-    padding:10px 30px;
-    height: auto;
-    width: auto;
-    background-color: var(--secondary-color);
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    color: white;
-    font-size: 16px;
-    /* flex-direction: co; */
-    /* border: 2px solid red; */
   }
   .homepage {
     text-align: center;
