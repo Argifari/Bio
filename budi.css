@@ -74,10 +74,17 @@
     margin-bottom: 45vh;
   }
   .home-navbar .navbar{
+    padding:10px 30px;
+    height: auto;
+    width: auto;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
+    color: white;
+    font-size: 16px;
     /* flex-direction: co; */
     /* border: 2px solid red; */
   }
@@ -515,6 +522,16 @@
     align-items: flex-start;
     gap: 30px;
   }
+  .contact-me ion-icon {
+    height: 50px;
+    width: 50px;
+    color: white;
+  }
+  .contact-me ion-icon:hover {
+    transform: scale(110%);
+    color: var(--primary-color);
+  }
+  
   .footer-ending {
     font-size: 16px;
   }
